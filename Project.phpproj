@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>Project</Name>
+    <ProjectGuid>e86cb3d7-47ac-4568-be2a-65bfbd1d6bf0</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>
+    </RootNamespace>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+    <AssemblyName>Project</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="add_game.php" />
+    <Compile Include="add_game_page.php" />
+    <Compile Include="advanced_search.php" />
+    <Compile Include="advanced_search_reset.php" />
+    <Compile Include="advanced_search_page.php" />
+    <Compile Include="browse_page.php" />
+    <Compile Include="buy.php" />
+    <Compile Include="fill_db.php" />
+    <Compile Include="header2.php" />
+    <Compile Include="page_number.php" />
+    <Compile Include="user_clear_games.php" />
+    <Compile Include="edit_game.php" />
+    <Compile Include="edit_game_page.php" />
+    <Compile Include="footer.php" />
+    <Compile Include="genre_page.php" />
+    <Compile Include="header.php" />
+    <Compile Include="hot.php" />
+    <Compile Include="index_content.php" />
+    <Compile Include="index_slide.php" />
+    <Compile Include="profile_page.php" />
+    <Compile Include="register_page.php" />
+    <Compile Include="index.php" />
+    <Compile Include="login.php" />
+    <Compile Include="login_page.php" />
+    <Compile Include="logout.php" />
+    <Compile Include="game_page.php" />
+    <Compile Include="remove_game.php" />
+    <Compile Include="games_overview_page.php" />
+    <Compile Include="remove_user.php" />
+    <Compile Include="user_remove_game.php" />
+    <Compile Include="search.php" />
+    <Compile Include="register.php" />
+    <Compile Include="shop_page.php" />
+    <Compile Include="update_cart.php" />
+    <Compile Include="update_wishlist.php" />
+    <Compile Include="user_add_game.php" />
+    <Compile Include="user_add_game_page.php" />
+    <Compile Include="user_overview_page.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="buy.html" />
+    <Content Include="script.js" />
+    <Content Include="style.css" />
+  </ItemGroup>
+</Project>
